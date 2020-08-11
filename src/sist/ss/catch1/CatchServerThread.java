@@ -139,7 +139,7 @@ public class CatchServerThread extends Thread {
 						String color=(String)o;
 						brodCast(color);		
 					}
-					/////!!!!!!!!!!!!!!!!!!!!!!!!!!!!중요!!!!!!!!!!!!!!!!!!!!!!!!!!!!/////////ss
+					/////!!!!!!!!!!!!!!!!!!!!!!!!!!!!중요!!!!!!!!!!!!!!!!!!!!!!!!!!!!/////////
 					if (((String) o).startsWith("[정답]")) {
 
 						clean("[지우기]");
